@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: hsl(225, 100%, 94%);
+}
+main{
+    max-width: 482px;
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: hsl(0, 0%, 100%);
+}
+h1,h4{
+    color: hsl(223, 47%, 23%);
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 900;
+}
+
+.image-box{
+    width: 100%;
+}
+
+.image-box img{
+    width: 100%;
+}
+.container{
+    padding: 16px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.box div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-main{
+    background-color: hsl(245, 75%, 52%);
+    padding: 16px;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0px 21px 30px -22px hsl(245, 75%, 52%);
+}
+
+.btn-funct{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+button:hover{
+    opacity: 0.7;
+}
+
+.btn-cancel:hover{
+    color: black;
+}
